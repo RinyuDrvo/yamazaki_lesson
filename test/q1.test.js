@@ -1,4 +1,3 @@
-const { TestScheduler } = require('jest');
 const q1 = require('../src/q1');
 
 test('adds abc to equal 良い文章', () => {
