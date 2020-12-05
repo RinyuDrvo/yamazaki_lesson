@@ -1,0 +1,8 @@
+{
+  "name": "yamazaki_lesson",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/RinyuDrvo/yamazaki_lesson.git",
+  "author": "RinyuDrvo <alchemist.drumvocal@gmail.com>",
+  "license": "MIT"
+}
