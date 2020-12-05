@@ -8,12 +8,12 @@ function multipleOf2(text) {
   return text.length % 2 === 0;
 }
 
-function judge(text) {
+module.export = function(text) {
   const good = multipleOf3(text);
   const bad = multipleOf2(text);
 
-  if(good && bad) return "まぁまぁな文章";
-  good ? "良い文章" : "悪い文章";
+  if(good && bad) return "普通の文章";
+  if(good) return "良い文章" 
+  if(bad) return "悪い文章";
+  return "まぁまぁな文章";
 }
-
-console.log(judge(text));
