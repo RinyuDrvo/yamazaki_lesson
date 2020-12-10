@@ -1,5 +1,5 @@
 /**
- * 問題１
+ * 練習課題１
  * 文字列の引数を1つ取り、
  * その文字数が３の倍数であった場合は「良い文章」、
  * ２の倍数であった場合は「悪い文章」、
@@ -14,7 +14,7 @@ function multipleOf2(text) {
   return text.length % 2 === 0;
 }
 
-function multipleJudge(text) {
+function q1(text) {
   const good = multipleOf3(text);
   const bad = multipleOf2(text);
 
@@ -24,4 +24,4 @@ function multipleJudge(text) {
   return "まぁまぁな文章";
 }
 
-module.exports = multipleJudge;
+module.exports = q1;
