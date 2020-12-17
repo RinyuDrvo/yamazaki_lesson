@@ -1,4 +1,3 @@
-const { expect } = require('@jest/globals');
 const q10 = require('../src/q10');
 
 test("add 'javascript' in ['a', 'b', 'c', 'd'] and 2 is equal ['a', 'b', 'javascript', 'c', 'd']", () => {
