@@ -6,13 +6,6 @@
 
 function q12(arg) {
   /** 回答を記述 */
-  const arr = arg;
-  arr.sort((a,b) => {
-    if(a<b) return -1;
-    if(a>b) return 1;
-    return 0;
-  })
-  return arr.map(element => element.toString());
 }
 
 module.exports = q12;

@@ -7,9 +7,6 @@
 
 function q5(arg1, arg2) {
   /** ここに回答を記述 */
-  return arg1.filter(str1 => {
-    return arg2.some(str2 => str1 === str2)
-  })
 }
 
 module.exports = q5;

@@ -5,9 +5,6 @@
 
 function q9(arg) {
   /** ここに回答を記述 */
-  return arg.reduce((acc, cur) => {
-    return acc + '-' + cur;
-  })
 }
 
 module.exports = q9;

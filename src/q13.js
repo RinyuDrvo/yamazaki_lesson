@@ -10,7 +10,6 @@
 
 function q13(arg1, arg2) {
   /** ここに回答を記述 */
-  return arg1[arg2[0]][arg2[1]];
 }
 
 module.exports = q13;

@@ -6,12 +6,6 @@
 
 function q8(arg) {
   /** ここに回答を記述 */
-  arg.sort((a,b) => {
-    if(a>b) return -1;
-    if(a<b) return 1;
-    return 0;
-  })
-  return arg;
 }
 
 module.exports = q8;
