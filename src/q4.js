@@ -6,6 +6,7 @@
 
 function q4(arg) {
   /** 回答を記述 */
+  return arg.reduce((sum, element) => sum + element, 0)
 }
 
 module.exports = q4;

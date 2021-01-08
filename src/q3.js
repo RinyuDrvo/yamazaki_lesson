@@ -6,6 +6,11 @@
 
 function q3(arg) {
   /** 回答を記述 */
+  const ans = [];
+  for(let i = 1; i <= arg; i++) {
+    ans.push(i);
+  }
+  return ans;
 }
 
 module.exports = q3;

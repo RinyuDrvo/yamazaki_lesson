@@ -7,6 +7,8 @@
 
 function q2(arg) {
   /** 回答を記述 */
+  if(typeof arg === 'string') return '文字列';
+  if(typeof arg === 'number') return '数値';
 }
 
 module.exports = q2;

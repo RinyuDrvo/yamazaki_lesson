@@ -8,6 +8,7 @@
 
 function q14(arg1, arg2) {
   /* 回答を記述 */
+  return Object.assign(arg1, arg2);
 }
 
 module.exports = q14;
