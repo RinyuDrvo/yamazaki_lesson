@@ -8,6 +8,7 @@
 
 function q15(arg1, arg2) {
   /** 回答を記述 */
+  return arg1[arg2]
 }
 
 module.exports = q15;

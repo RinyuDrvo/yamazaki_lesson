@@ -9,6 +9,8 @@
 
 function q10(arr, str, num) {
   /** ここに回答を記述 */
+  arr.splice(num, 0, str);
+  return arr;
 }
 
 module.exports = q10;

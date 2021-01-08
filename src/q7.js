@@ -7,6 +7,11 @@
 
 function q7(arg1, arg2, arg3) {
   /** ここに回答を記述 */
+  const ans = [];
+  ans.push(arg1.toString());
+  ans.push(arg2.toString());
+  ans.push(arg3.toString());
+  return ans;
 }
 
 module.exports = q7;

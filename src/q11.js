@@ -6,6 +6,10 @@
 
 function q11(age, name) {
   /** ここに回答を記述 */
+  return {
+    age: age,
+    name: name
+  }
 }
 
 module.exports = q11;
