@@ -5,7 +5,6 @@
 
 function q6(arg) {
   /** ここに回答を記述 */
-  return Array.isArray(arg);
 }
 
 module.exports = q6;
